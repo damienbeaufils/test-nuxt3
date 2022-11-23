@@ -6,13 +6,16 @@
 		"generate": "nuxt generate",
 		"reset": "rm -rf .nuxt node_modules .output package-lock.json && npm install",
 		"preview": "nuxt preview",
-		"postinstall": "nuxt prepare"
+		"postinstall": "nuxt prepare",
+		"predeploy": "npm run generate",
+		"deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
 	},
 	"devDependencies": {
 		"@kevinmarrec/nuxt-pwa": "^0.9.1",
 		"@nuxtjs/google-fonts": "^2.0.0",
 		"nuxt": "3.0.0-rc.13",
 		"nuxt-icon": "^0.1.7",
+		"push-dir": "^0.4.1",
 		"sass": "^1.56.0",
 		"vuetify": "^3.0.0"
 	},
