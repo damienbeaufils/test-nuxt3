@@ -11,13 +11,13 @@
 		"deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
 	},
 	"devDependencies": {
-		"@kevinmarrec/nuxt-pwa": "^0.9.1",
-		"@nuxtjs/google-fonts": "^2.0.0",
-		"nuxt": "3.0.0-rc.13",
+		"@kevinmarrec/nuxt-pwa": "^0.13.0",
+		"@nuxtjs/google-fonts": "^3.0.0-1",
+		"nuxt": "3.0.0",
 		"nuxt-icon": "^0.1.7",
 		"push-dir": "^0.4.1",
-		"sass": "^1.56.0",
-		"vuetify": "^3.0.0"
+		"sass": "^1.56.1",
+		"vuetify": "^3.0.2"
 	},
 	"dependencies": {
 		"vite-plugin-vuetify": "^1.0.0"

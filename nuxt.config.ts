@@ -10,9 +10,6 @@ const url = "https://vuetify3nuxt3starter.behonbaker.com/";
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
 	target: 'static',
-	router: {
-		base: '/text-nuxt3/',
-	},
 	css: ["@/assets/main.scss"],
 	build: {
 		transpile: ["vuetify"],
@@ -50,8 +47,6 @@ export default defineNuxtConfig({
 					rel: "canonical",
 					href: url,
 				},
-			],
-			script: [
 			],
 			meta: [
 				{
